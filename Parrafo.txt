@@ -1,0 +1,10 @@
+El principio de segregación de interfaces viene a decir que ninguna
+clase debería depender de métodos que no usa. Por tanto, cuando
+creemos interfaces que definan comportamientos, es importante estar
+seguros de que todas las clases que implementen esas interfaces vayan
+a necesitar y ser capaces de agregar comportamientos a todos los métodos.
+En caso contrario, es mejor tener varias interfaces más pequeñas.
+Las interfaces nos ayudan a desacoplar módulos entre sí. Esto e
+s así porque si tenemos una interfaz que explica el comportamiento
+que el módulo espera para comunicarse con otros módulos, nosotros
+siempre podremos crear una clase que lo implemente de modo que cumpla las condiciones.
